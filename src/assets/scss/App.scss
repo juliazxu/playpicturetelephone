@@ -9,11 +9,14 @@ $medium-padding: 4em;
 $small-padding: 1.5em;
 $tiny-padding: 1em;
 $medium-text-size: 1.5em;
-$large-text-size: 2.5em;
-$nunito: 'Nunito', sans-serif;
+$large-text-size: 3.5em;
+$nunito: 'Caveat Brush', sans-serif;
 
 $medium-blue: #AAF1FF;
 $light-blue: #E6FBFF;
+$teal: #13AACE;
+$orange: #FFB35F;
+$green: #13CECE;
 
 html {
   margin: 0;
@@ -33,7 +36,16 @@ h1 {
   font-family: $nunito;
   font-weight: 300;
   margin-top: 0;
-  margin-bottom: $small-padding;
+  // margin-bottom: $small-padding;
+  color: $teal;
+}
+
+.orange {
+  color: $orange;
+}
+
+.green {
+  color: $green;
 }
 
 .half-size {

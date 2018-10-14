@@ -21,7 +21,7 @@ export class LandingForm extends React.Component<LandingFormProps, undefined> {
           <img className="align-right half-size" src={dog} />
         </div>
         <div className="section-white flex-column">
-          <h1>DRAW AND GUESS WITH FRIENDS - FREE!</h1>
+          <h1><span className="orange">DRAW </span>AND <span className="green">GUESS </span>WITH FRIENDS - FREE!</h1>
           <div className="flex-row">
             <img className="appstore-button padding-right" src={appleStore} />
             <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jiechou.playpicturetelephone">
