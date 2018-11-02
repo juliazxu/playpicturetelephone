@@ -36,7 +36,6 @@ h1 {
   font-family: $nunito;
   font-weight: 300;
   margin-top: 0;
-  // margin-bottom: $small-padding;
   color: $teal;
 }
 
@@ -48,8 +47,24 @@ h1 {
   color: $green;
 }
 
+.full-size {
+  width: 40vw;
+}
+
 .half-size {
   width: 40%;
+}
+
+#long-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#short-image {
+  max-width: 100%;
+  height: 15em;
+  max-height: 100%;
 }
 
 .appstore-button {
@@ -72,7 +87,9 @@ h1 {
 h2 {
   font-family: $nunito;
   font-weight: 300;
-  margin-top: 0;
+  margin-top: 1em;
+  color: $teal;
+  font-size: 2.5em;
   margin-bottom: $small-padding;
 }
 
@@ -82,7 +99,9 @@ p {
 
 h3 {
   font-family: $nunito;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 2.5em;
+  margin-left: -5em;
 }
 
 .app {
@@ -91,6 +110,16 @@ h3 {
 
 .white {
   color: $white;
+}
+
+// Explainer section
+
+#explainer-section {
+  height: 80em;
+}
+
+#long-text {
+  height: 77em;
 }
 
 // Sections and section flex
@@ -120,6 +149,14 @@ h3 {
 .flex-row {
   @extend %flex;
   flex-direction: row;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .flex-column {
